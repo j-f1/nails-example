@@ -1,8 +1,8 @@
 # Nails Example *(nails-example)*
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Remix on Glitch](https://cdn.rawgit.com/j-f1/nails-example/5896be3/glitch-badge.svg)](https://glitch.com/#!/import/github/j-f1/nails-example)
 
-> Example Nails app
+> Example Nails app ([Demo](https://nails-example.glitch.me/status))
 
 ## Install
 1. Install [Node](https://nodejs.org) and [npm](https://npmjs.org)
