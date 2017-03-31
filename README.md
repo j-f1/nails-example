@@ -13,7 +13,15 @@
 1. Visit http://localhost:8080/status
 
 ## Maintainers/Contributors
-*pending*
+<!-- Contributors START
+ArtOfCode ArtOfCode- https://artofcode.co.uk code
+J_F j-f1 https://j-f1.github.io code infra
+Contributors END -->
+<!-- Contributors table START -->
+| <img src="https://avatars.githubusercontent.com/ArtOfCode-?s=100" width="100" alt="ArtOfCode" /><br /><sub>ArtOfCode</sub>](https://artofcode.co.uk)<br />[💻](https://github.com/j-f1/nails-example/commits?author=ArtOfCode-) | <img src="https://avatars.githubusercontent.com/j-f1?s=100" width="100" alt="J F" /><br /><sub>J F</sub>](https://j-f1.github.io)<br />[💻](https://github.com/j-f1/nails-example/commits?author=j-f1) 🚇 |
+| :---: | :---: |
+<!-- Contributors table END -->
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
 
 ## Contribute
 Feel free to [ask questions](https://github.com/j-f1/nails-example/issues) or [create a PR](https://github.com/j-f1/nails-example/pulls)!
