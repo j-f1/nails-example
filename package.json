@@ -5,6 +5,8 @@
   "main": "demo.js",
   "scripts": {
     "test": "xo",
+    "add-contrib": "all-contributors add",
+    "gen-contribs": "all-contributors generate",
     "start": "node demo.js"
   },
   "repository": {
@@ -63,6 +65,7 @@
     }
   },
   "devDependencies": {
+    "all-contributors-cli": "^4.0.1",
     "xo": "^0.18.1"
   },
   "dependencies": {
