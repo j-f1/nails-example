@@ -11,7 +11,7 @@
 1. `npm start`
 1. Visit http://localhost:8080/status
 
-## Maintainers/Contributors
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
