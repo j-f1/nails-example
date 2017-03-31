@@ -1,4 +1,5 @@
 # Nails Example *(nails-example)*
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Remix on Glitch](https://cdn.rawgit.com/j-f1/nails-example/7f6895c/glitch-badge.svg)](https://glitch.com/#!/import/github/j-f1/nails-example)
 
@@ -13,15 +14,6 @@
 1. Visit http://localhost:8080/status
 
 ## Maintainers/Contributors
-<!-- Contributors START
-ArtOfCode ArtOfCode- https://artofcode.co.uk code
-J_F j-f1 https://j-f1.github.io code infra
-Contributors END -->
-<!-- Contributors table START -->
-| <img src="https://avatars.githubusercontent.com/ArtOfCode-?s=100" width="100" alt="ArtOfCode" /><br /><sub>ArtOfCode</sub>](https://artofcode.co.uk)<br />[💻](https://github.com/j-f1/nails-example/commits?author=ArtOfCode-) | <img src="https://avatars.githubusercontent.com/j-f1?s=100" width="100" alt="J F" /><br /><sub>J F</sub>](https://j-f1.github.io)<br />[💻](https://github.com/j-f1/nails-example/commits?author=j-f1) 🚇 |
-| :---: | :---: |
-<!-- Contributors table END -->
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
 
 ## Contribute
 Feel free to [ask questions](https://github.com/j-f1/nails-example/issues) or [create a PR](https://github.com/j-f1/nails-example/pulls)!
@@ -32,3 +24,14 @@ Standard Readme follows the [Contributor Covenant](http://contributor-covenant.o
 ## License
 
 [MIT](https://github.com/j-f1/nails-example/blob/master/LICENSE.md)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars1.githubusercontent.com/u/25517624?v=3" width="100px;"/><br /><sub>J F</sub>](https://j-f1.github.io)<br />[💻](https://github.com/j-f1/nails-example/commits?author=j-f1) 🚇 |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
