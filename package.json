@@ -69,6 +69,6 @@
     "xo": "^0.18.1"
   },
   "dependencies": {
-    "node-nails": "github:j-f1/nails#add-tests"
+    "node-nails": "^0.5.1"
   }
 }
