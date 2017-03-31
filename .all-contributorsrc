@@ -16,6 +16,15 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "ArtOfCode-",
+      "name": "ArtOfCode",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10406565?v=3",
+      "profile": "http://artofcode.co.uk/",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
