@@ -10,7 +10,6 @@ module.exports = Router.draw(({ get, scope }) => {
   });
   scope('status', () => {
     get('');
-    get('param-switching', 'paramSwitching');
     get('json', {
       to: 'json'
     });
