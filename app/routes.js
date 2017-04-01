@@ -1,4 +1,4 @@
-const { Router } = require('..');
+const { Router } = global.NAILS_TEST_EXPORT || require('node-nails');
 
 module.exports = Router.draw(({ scope }) => {
   scope('status', ({ get }) => {
