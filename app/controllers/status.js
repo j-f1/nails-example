@@ -1,4 +1,4 @@
-exports.status = function () {
+exports.index = function () {
   this.render({ text: "status ok" });
 };
 

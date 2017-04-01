@@ -1,11 +1,19 @@
 /* istanbul ignore next: this is only skipped in testing */
 const { Router } = global.NAILS_TEST_EXPORT || require('node-nails');
 
-module.exports = Router.draw(({ scope }) => {
-  scope('status', ({ get }) => {
-    get('', 'status');
+module.exports = Router.draw(({ get, scope }) => {
+  get('', 'home');
+  get('oh-noes', 'not-a-controller');
+  scope('test', () => {
+    get('badView');
+    get('nada');
+  });
+  scope('status', () => {
+    get('');
     get('param-switching', 'paramSwitching');
-    get('json');
+    get('json', {
+      to: 'json'
+    });
     get('view');
     get('redirect');
   });
