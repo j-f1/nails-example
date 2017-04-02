@@ -7,6 +7,7 @@ module.exports = Router.draw(({ get, scope }) => {
   scope('test', () => {
     get('badView');
     get('nada');
+    get(':id', 'id');
   });
   scope('status', () => {
     get('');

@@ -5,3 +5,9 @@ exports.badView = function () {
 };
 
 exports.nada = function () {};
+
+exports.id = function () {
+  this.render({
+    text: this.params.id
+  });
+};
