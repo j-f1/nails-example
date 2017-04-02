@@ -1,7 +1,7 @@
 /* istanbul ignore next: this is only skipped in testing */
 const { Router } = global.NAILS_TEST_EXPORT || require('node-nails');
 
-module.exports = Router.draw(({ get, scope }) => {
+module.exports = Router.draw(({ get, scope, ws }) => {
   get('', 'home');
   get('oh-noes', 'not-a-controller');
   scope('test', () => {
@@ -11,11 +11,13 @@ module.exports = Router.draw(({ get, scope }) => {
     get('cookie');
   });
   scope('status', () => {
-    get('');
+    ws('');
+    get('/');
     get('json', {
       to: 'json'
     });
     get('view');
     get('redirect');
+    get('ws');
   });
 });

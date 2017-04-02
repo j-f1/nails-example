@@ -14,3 +14,7 @@ exports.view = function () {
 exports.redirect = function () {
   this.redirect('/status');
 };
+
+exports.ws = function () {
+  this.render({ view: true });
+};

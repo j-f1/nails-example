@@ -1,0 +1,9 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  window.sock = io();
+  window.sock.emit('join', '/status')
+  window.sock.on('message', console.log.bind(console))
+  window.sock.on('reconnect', function () {
+    window.sock.emit('join', '/status')
+  })
+</script>
