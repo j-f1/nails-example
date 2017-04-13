@@ -1,11 +1,15 @@
-const nails = require('node-nails');
+/* istanbul ignore next: this is only skipped in testing */
+const nails = global.NAILS_TEST_EXPORT || require('node-nails');
 
 exports = module.exports = class Channel extends nails.Channel {
   constructor(...args) {
     super(...args);
-    setInterval(() => {
-      this.socket.send(this.pickRandom('ok', '👍', '⚠', '🚨'));
-    }, 500);
+    this._send = this._send.bind(this);
+    process.nextTick(this._send);
+    setInterval(this._send, 500);
+  }
+  _send() {
+    this.socket.send(this.pickRandom('ok', '👍', '⚠', '🚨'));
   }
   pickRandom(...arr) {
     return arr[Math.floor(Math.random() * arr.length)];
