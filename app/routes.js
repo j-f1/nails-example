@@ -3,6 +3,7 @@ const { Router } = global.NAILS_TEST_EXPORT || require('node-nails');
 
 module.exports = Router.draw(({ get, scope, ws }) => {
   get('', 'home');
+  get('static/:path*', 'home.static');
   get('oh-noes', 'not-a-controller');
   scope('test', () => {
     get('badView');
