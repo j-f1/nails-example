@@ -8,6 +8,6 @@ exports.static = function () {
     components[components.length - 1] = 'index.html';
   }
   this.stream({
-    path: this.static(...components)
+    path: this.static(...components),
   });
 };

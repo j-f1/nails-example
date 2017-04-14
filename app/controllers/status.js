@@ -1,5 +1,5 @@
 exports.index = function () {
-  this.render({ text: "status ok" });
+  this.render({ text: 'status ok' });
 };
 
 exports.json = function () {

@@ -16,7 +16,7 @@ module.exports = Router.draw(({ get, scope, ws }) => {
     ws('');
     get('/');
     get('json', {
-      to: 'json'
+      to: 'json',
     });
     get('view');
     get('redirect');
