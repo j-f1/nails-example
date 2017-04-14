@@ -3,6 +3,7 @@ exports.index = function () {
 };
 
 exports.json = function () {
+  this.header('x-status', 'ok');
   this.render({ json: { this: 'renders', as: 'json' } });
 };
 
