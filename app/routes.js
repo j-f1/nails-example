@@ -10,6 +10,7 @@ module.exports = Router.draw(({ get, scope, ws }) => {
     get('nada');
     get(':id(\\d+)', 'id');
     get('cookie');
+    get('query');
   });
   scope('status', () => {
     ws('');

@@ -12,6 +12,12 @@ exports.id = function () {
   });
 };
 
+exports.query = function () {
+  this.render({
+    json: this.query
+  });
+};
+
 exports.cookie = function () {
   let number = this.cookies.get('number', {
     signed: true
