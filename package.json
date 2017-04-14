@@ -4,7 +4,7 @@
   "description": "Example Nails app",
   "main": "demo.js",
   "scripts": {
-    "test": "xo",
+    "test": "xo && echo \"No lint issues!\\nxo 💚 you\"",
     "add-contrib": "all-contributors add",
     "gen-contribs": "all-contributors generate",
     "start": "node demo.js"
