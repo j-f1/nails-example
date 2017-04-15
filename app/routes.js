@@ -11,6 +11,7 @@ module.exports = Router.draw(({ get, scope, ws }) => {
     get(':id(\\d+)', 'id');
     get('cookie');
     get('query');
+    get('auth');
   });
   scope('status', () => {
     ws('');

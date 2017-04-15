@@ -18,6 +18,27 @@ exports.query = function () {
   });
 };
 
+exports.auth = function () {
+  this.auth.enable({
+    realm: 'test',
+  });
+  if (this.auth.check('nails', 'is awesome')) {
+    this.render({
+      text: 'You’re in: ' + this.headers.authorization.match(/^Basic (.+)$/)[1],
+    });
+  } else if (this.auth.invalid) {
+    this.render({
+      status: 401,
+      text: 'Did you try nails:is awesome?',
+    });
+  } else {
+    this.render({
+      status: 401,
+      text: 'Nope!',
+    });
+  }
+};
+
 exports.cookie = function () {
   let number = this.cookies.get('number', {
     signed: true,
