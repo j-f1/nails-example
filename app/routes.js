@@ -12,6 +12,7 @@ module.exports = Router.draw(({ get, scope, ws }) => {
     get('cookie');
     get('query');
     get('auth');
+    get('go-away', 'goAway');
   });
   scope('status', () => {
     ws('');

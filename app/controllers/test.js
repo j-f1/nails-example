@@ -52,3 +52,9 @@ exports.cookie = function () {
   }
   this.render({}, `You are #${number}\n<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>`);
 };
+
+exports.goAway = function () {
+  this.redirect({
+    back: '/',
+  });
+};
