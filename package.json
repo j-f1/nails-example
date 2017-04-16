@@ -44,6 +44,6 @@
     "xo": "^0.18.1"
   },
   "dependencies": {
-    "node-nails": "ArtOfCode-/nails"
+    "node-nails": "github:ArtOfCode-/nails"
   }
 }
