@@ -13,6 +13,11 @@ module.exports = Router.draw(({ get, scope, ws }) => {
     get('query');
     get('auth');
     get('go-away', 'goAway');
+    scope('cache', () => {
+      get('forever');
+      get('no-cache', 'noCache');
+      get('seconds/:seconds(\\d+)', 'seconds');
+    });
   });
   scope('status', () => {
     ws('');
