@@ -1,4 +1,4 @@
-exports = module.exports = function () {
+exports.index = function () {
   this.render('<h1>Hi!!1</h1>');
 };
 

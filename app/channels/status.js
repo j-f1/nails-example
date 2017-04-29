@@ -1,7 +1,7 @@
 /* istanbul ignore next: this is only skipped in testing */
 const nails = global.NAILS_TEST_EXPORT || require('node-nails');
 
-exports = module.exports = class Channel extends nails.Channel {
+exports.index = class Channel extends nails.Channel {
   constructor(...args) {
     super(...args);
     this._send = this._send.bind(this);
