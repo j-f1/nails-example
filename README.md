@@ -1,4 +1,6 @@
 # Nails Example *(nails-example)*
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/j-f1/nails-example.svg)](https://greenkeeper.io/)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Travis](https://img.shields.io/travis/j-f1/nails-example.svg?style=flat-square)](https://travis-ci.org/j-f1/nails-example) [![Remix on Glitch](https://cdn.rawgit.com/j-f1/nails-example/7f6895c/glitch-badge.svg)](https://glitch.com/#!/import/github/j-f1/nails-example)
 
 > Example [Nails](https://github.com/ArtOfCode-/nails) app ([Demo](https://nails-example.glitch.me/status))
