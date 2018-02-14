@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^4.0.1",
-    "xo": "^0.18.1"
+    "xo": "^0.20.0"
   },
   "dependencies": {
     "node-nails": "github:ArtOfCode-/nails"
