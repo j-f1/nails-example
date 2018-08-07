@@ -8,9 +8,11 @@ exports.index = class Channel extends nails.Channel {
     process.nextTick(this._send);
     setInterval(this._send, 500);
   }
+
   _send() {
     this.socket.send(this.pickRandom('ok', '👍', '⚠', '🚨'));
   }
+
   pickRandom(...arr) {
     return arr[Math.floor(Math.random() * arr.length)];
   }
